@@ -18,9 +18,6 @@ import threading
 import pyautogui
 import win32gui
 
-from scripts.configs import *
-from scripts.style import *
-
 __version__ = "3.0.1 Alpha"
 
 pyautogui.PAUSE = 0
@@ -390,13 +387,21 @@ def help_about():
     Info()
 
 def help_docs(x=None):
-    pass
+    os.system("start https://github.com/Python-ZZY/Spam3.0/blob/main/README.md")
 
 root = Tk(className="")
 root.title(APPNAME + "(空闲)")
 root.iconbitmap(default=ICONNAME)
 root.update()
-configure_style()
+ttk.Style().layout("TButton",
+                   [('Button.button',
+                        {'children':
+                         [('Button.padding',
+                           {'children':
+                            [('Button.label',
+                              {'sticky': 'nswe'})],
+                            'sticky': 'nswe'})],
+                         'sticky': 'nswe'})])
 
 root.bind("<Control-O>", file_open)
 root.bind("<Control-o>", file_open)
@@ -481,4 +486,10 @@ keyboardthread.start()
 run_button = Button(root, text="运行", command=keyboardthread.flag.set)
 run_button.pack(padx=10, pady=5)
 
+if len(sys.argv) > 1:
+    try:
+        load_file_obj(pickle.load(open(sys.argv[-1], "rb")))
+    except:
+        messagebox.showerror("错误", "文件载入失败！")
+        
 mainloop()
