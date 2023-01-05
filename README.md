@@ -1,6 +1,8 @@
 # 刷屏神器 3.0.1 帮助文档
 开发者：Python-ZZY
 
+EXE链接：https://download.csdn.net/download/qq_48979387/87366840
+
 邮箱: pythonzzy@foxmail.com
 
 Github: https://github.com/Python-ZZY/
