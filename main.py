@@ -1,3 +1,9 @@
+try:
+    import pyi_splash
+    pyi_splash.close()
+except:
+    pass
+
 from tkinter import *
 from tkinter.scrolledtext import *
 from tkinter import ttk, messagebox, filedialog
