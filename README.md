@@ -1,4 +1,6 @@
 # 刷屏神器 3.0.1 帮助文档
+![icon](https://github.com/Python-ZZY/Spam3.0/tree/main/assets/icon.png)
+
 开发者：Python-ZZY
 
 EXE链接：https://download.csdn.net/download/qq_48979387/87366840
@@ -19,6 +21,8 @@ Github: https://github.com/Python-ZZY/
 
 3. 在鼠标移动到变量和运算符的按钮上面时，窗口下方会显示详细的相关介绍。
 
+4. 如果需要强制终止刷屏，可以将鼠标移动到窗口四角。
+
 ### 扩展功能
 新版的刷屏神器增添了新功能，如刷屏文件和窗口功能设定。
 
@@ -32,7 +36,8 @@ Github: https://github.com/Python-ZZY/
 * <kbd>F1</kbd>：打开帮助文档
 * <kbd>F2</kbd>：置顶/取消置顶窗口
 * <kbd>F3</kbd>：最小化窗口
+* <kbd>Ctrl</kbd>+<kbd>Q</kbd>：退出程序
 
 ## 项目
-本项目是开源项目，代码已上传到作者的[Github页面](https://github.com/Python-ZZY/)。
+本项目是开源项目，代码已上传到作者的[Github页面](https://github.com/Python-ZZY/Spam3.0/)。
 欢迎联系作者并提出更好的建议，遇到bug时请于pythonzzy@foxmail.com反馈作者。
