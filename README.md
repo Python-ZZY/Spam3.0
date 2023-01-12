@@ -1,5 +1,4 @@
 # 刷屏神器 3.0.1 帮助文档
-![icon](https://github.com/Python-ZZY/Spam3.0/tree/main/assets/icon.png)
 
 开发者：Python-ZZY
 
